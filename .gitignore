@@ -12,6 +12,13 @@ test.*
 *.mp3
 book_audio/
 chunks/
+.env
+.env.*
+!.env.example
+
+# Generated training videos / work products
+RCM_Videos/
+previews/
 
 *.npz
 *.bin
